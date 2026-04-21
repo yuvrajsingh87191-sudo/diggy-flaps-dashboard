@@ -3,8 +3,10 @@
 import React from 'react';
 import { DashboardLayout } from '@/components/layout/dashboard-layout';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Database, Table as TableIcon, Key, Link as LinkIcon, Lock } from 'lucide-react';
+import { Database, Table as TableIcon, Key, Link as LinkIcon, Lock, ShieldCheck } from 'lucide-react';
 import { Table, TableHeader, TableBody, TableHead, TableRow, TableCell } from '@/components/ui/table';
+import { Badge } from '@/components/ui/badge';
+import { cn } from '@/lib/utils';
 
 export default function DBMSPage() {
   const schema = [
@@ -96,6 +98,3 @@ export default function DBMSPage() {
     </DashboardLayout>
   );
 }
-
-import { Badge } from '@/components/ui/badge';
-import { cn } from '@/lib/utils';
