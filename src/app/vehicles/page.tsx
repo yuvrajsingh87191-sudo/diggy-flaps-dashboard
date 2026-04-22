@@ -18,7 +18,7 @@ export default function VehiclesPage() {
       <div className="space-y-8">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <h1 className="text-3xl font-headline font-bold text-white">Fleet Monitoring</h1>
+            <h1 className="text-3xl font-headline font-bold text-foreground">Fleet Monitoring</h1>
             <p className="text-muted-foreground">Manage and track all connected vehicle compartments.</p>
           </div>
           <div className="relative w-full md:w-64">
@@ -42,7 +42,7 @@ export default function VehiclesPage() {
                       <Bus className="w-5 h-5" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-white">{vehicle.name}</h3>
+                      <h3 className="font-bold text-foreground">{vehicle.name}</h3>
                       <p className="text-xs text-muted-foreground font-mono">{vehicle.id}</p>
                     </div>
                   </div>
@@ -55,7 +55,7 @@ export default function VehiclesPage() {
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div className="flex items-center gap-2 text-sm text-white/80">
+                <div className="flex items-center gap-2 text-sm text-foreground/70">
                   <MapPin className="w-4 h-4 text-primary" />
                   {vehicle.route}
                 </div>
@@ -76,7 +76,7 @@ export default function VehiclesPage() {
                       <Activity className="w-3 h-3" />
                       Sensors
                     </p>
-                    <p className="text-xl font-headline font-bold text-white">{vehicle.sensors.length}</p>
+                    <p className="text-xl font-headline font-bold text-foreground">{vehicle.sensors.length}</p>
                   </div>
                 </div>
 

@@ -15,7 +15,7 @@ export default function AlertsPage() {
       <div className="space-y-8">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-headline font-bold text-white">Active System Alerts</h1>
+            <h1 className="text-3xl font-headline font-bold text-foreground">Active System Alerts</h1>
             <p className="text-muted-foreground">Real-time fault detection and anomaly reporting.</p>
           </div>
           <div className="flex gap-4">
@@ -54,7 +54,7 @@ export default function AlertsPage() {
                     <TableCell className="font-bold">{alert.vehicleId}</TableCell>
                     <TableCell>
                        <div className="flex flex-col">
-                          <span className="font-medium text-sm text-white">{alert.type}</span>
+                          <span className="font-medium text-sm text-foreground">{alert.type}</span>
                           <span className="text-[10px] text-muted-foreground uppercase font-bold">{alert.sensorId}</span>
                        </div>
                     </TableCell>

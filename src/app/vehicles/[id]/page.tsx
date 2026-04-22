@@ -35,11 +35,11 @@ export default function VehicleDetailPage() {
         <div className="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
           <div className="flex items-center gap-6">
             <div className="w-16 h-16 rounded-2xl bg-primary flex items-center justify-center shadow-xl shadow-primary/30">
-              <Bus className="w-10 h-10 text-white" />
+              <Bus className="w-10 h-10 text-foreground" />
             </div>
             <div>
               <div className="flex items-center gap-3">
-                <h1 className="text-3xl font-headline font-bold text-white">{vehicle.name}</h1>
+                <h1 className="text-3xl font-headline font-bold text-foreground">{vehicle.name}</h1>
                 <Badge variant="outline" className="text-[10px] uppercase font-bold border-primary text-primary tracking-widest">{vehicle.id}</Badge>
               </div>
               <div className="flex items-center gap-4 mt-2 text-muted-foreground text-sm">
@@ -59,7 +59,7 @@ export default function VehicleDetailPage() {
             <div className="text-center pr-6 border-r border-border">
               <p className="text-[10px] text-muted-foreground uppercase font-bold mb-1">Health Score</p>
               <div className="flex items-center gap-3">
-                <span className="text-2xl font-headline font-bold text-white">{vehicle.healthScore}%</span>
+                <span className="text-2xl font-headline font-bold text-foreground">{vehicle.healthScore}%</span>
                 <Progress value={vehicle.healthScore} className="w-20 h-2" />
               </div>
             </div>
@@ -85,7 +85,7 @@ export default function VehicleDetailPage() {
         {/* Live Sensor Grid */}
         <div>
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-xl font-headline font-bold text-white flex items-center gap-2">
+            <h2 className="text-xl font-headline font-bold text-foreground flex items-center gap-2">
               <History className="w-5 h-5 text-primary" />
               Live Sensor Readings
             </h2>
@@ -131,7 +131,7 @@ export default function VehicleDetailPage() {
                   <Calendar className="w-3 h-3" />
                   Maintenance History
                 </h4>
-                <div className="text-sm text-white/70 border-l-2 border-primary/30 pl-4 py-1 italic">
+                <div className="text-sm text-foreground/70 border-l-2 border-primary/30 pl-4 py-1 italic">
                   "Routine inspection completed. No issues found in displacement sensors."
                   <p className="text-[10px] text-muted-foreground mt-1 font-bold">MAY 12, 2024</p>
                 </div>
@@ -159,7 +159,7 @@ export default function VehicleDetailPage() {
                 
                 <div className="p-4 rounded-xl bg-accent/10 border border-accent/20">
                   <h5 className="text-xs font-bold uppercase text-accent mb-2">Insight summary</h5>
-                  <p className="text-sm text-white/80 leading-relaxed">
+                  <p className="text-sm text-foreground/80 leading-relaxed">
                     Based on current vibration patterns and flap displacement trends, this vehicle is performing within 98% of optimal operational standards. No immediate intervention required.
                   </p>
                 </div>

@@ -41,7 +41,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
             <Cpu className="text-white w-6 h-6" />
           </div>
           <div>
-            <h1 className="font-headline font-bold text-xl tracking-tight text-white">DIGGI FLAPS</h1>
+            <h1 className="font-headline font-bold text-xl tracking-tight text-sidebar-foreground">DIGGI FLAPS</h1>
             <p className="text-[10px] text-muted-foreground uppercase tracking-widest font-semibold">Smart Monitoring</p>
           </div>
         </div>
@@ -55,10 +55,10 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                 "flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all group",
                 pathname === item.href 
                   ? "bg-primary text-white" 
-                  : "text-sidebar-foreground hover:bg-sidebar-accent hover:text-white"
+                  : "text-sidebar-foreground hover:bg-primary/10 hover:text-primary"
               )}
             >
-              <item.icon className={cn("w-5 h-5", pathname === item.href ? "text-white" : "text-muted-foreground group-hover:text-white")} />
+              <item.icon className={cn("w-5 h-5", pathname === item.href ? "text-white" : "text-muted-foreground group-hover:text-primary")} />
               {item.name}
             </Link>
           ))}

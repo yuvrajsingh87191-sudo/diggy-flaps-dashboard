@@ -15,7 +15,7 @@ export default function MaintenancePage() {
       <div className="space-y-8">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-headline font-bold text-white">Maintenance Logs</h1>
+            <h1 className="text-3xl font-headline font-bold text-foreground">Maintenance Logs</h1>
             <p className="text-muted-foreground">Historical records and upcoming service schedules.</p>
           </div>
           <Button className="gap-2 bg-primary hover:bg-primary/90">
@@ -33,7 +33,7 @@ export default function MaintenancePage() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-muted-foreground uppercase">Completed</p>
-                  <p className="text-2xl font-bold text-white">24</p>
+                  <p className="text-2xl font-bold text-foreground">24</p>
                 </div>
               </div>
             </CardContent>
@@ -46,7 +46,7 @@ export default function MaintenancePage() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-muted-foreground uppercase">Scheduled</p>
-                  <p className="text-2xl font-bold text-white">8</p>
+                  <p className="text-2xl font-bold text-foreground">8</p>
                 </div>
               </div>
             </CardContent>
@@ -59,7 +59,7 @@ export default function MaintenancePage() {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-muted-foreground uppercase">Overdue</p>
-                  <p className="text-2xl font-bold text-white">1</p>
+                  <p className="text-2xl font-bold text-foreground">1</p>
                 </div>
               </div>
             </CardContent>

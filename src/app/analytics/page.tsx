@@ -22,7 +22,7 @@ export default function AnalyticsPage() {
     <DashboardLayout>
       <div className="space-y-8">
         <div>
-          <h1 className="text-3xl font-headline font-bold text-white">System Analytics</h1>
+          <h1 className="text-3xl font-headline font-bold text-foreground">System Analytics</h1>
           <p className="text-muted-foreground">Historical performance and predictive data visualization.</p>
         </div>
 
@@ -87,7 +87,7 @@ export default function AnalyticsPage() {
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
-              <p className="text-sm text-white/80 leading-relaxed italic">
+              <p className="text-sm text-foreground/70 leading-relaxed italic">
                 "Analysis of the last 30 days suggests a strong correlation between high vibration events and flap displacement anomalies. We predict an 85% reduction in failures if vibration dampeners are serviced when vibration exceeds 4.5g."
               </p>
               <div className="p-4 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-between">

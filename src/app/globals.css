@@ -4,39 +4,39 @@
 
 @layer base {
   :root {
-    --background: 230 15% 8%;
-    --foreground: 210 20% 98%;
-    --card: 230 15% 10%;
-    --card-foreground: 210 20% 98%;
-    --popover: 230 15% 10%;
-    --popover-foreground: 210 20% 98%;
-    --primary: 225 60% 45%;
+    --background: 0 0% 97%;
+    --foreground: 220 13% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 20%;
+    --primary: 220 90% 50%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 252 70% 55%;
+    --secondary: 190 95% 45%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 230 15% 15%;
-    --muted-foreground: 215 20% 65%;
-    --accent: 252 70% 55%;
+    --muted: 220 14% 90%;
+    --muted-foreground: 220 10% 40%;
+    --accent: 190 95% 45%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 230 15% 18%;
-    --input: 230 15% 18%;
-    --ring: 225 60% 45%;
+    --border: 220 14% 88%;
+    --input: 220 14% 95%;
+    --ring: 220 90% 50%;
     --radius: 0.75rem;
-    --chart-1: 225 60% 45%;
-    --chart-2: 252 70% 55%;
+    --chart-1: 220 90% 50%;
+    --chart-2: 190 95% 45%;
     --chart-3: 142 70% 45%;
     --chart-4: 47 95% 55%;
     --chart-5: 0 84% 60%;
-    --sidebar-background: 230 15% 7%;
-    --sidebar-foreground: 215 20% 85%;
-    --sidebar-primary: 225 60% 45%;
+    --sidebar-background: 220 14% 93%;
+    --sidebar-foreground: 220 13% 25%;
+    --sidebar-primary: 220 90% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 230 15% 12%;
-    --sidebar-accent-foreground: 215 20% 98%;
-    --sidebar-border: 230 15% 15%;
-    --sidebar-ring: 225 60% 45%;
+    --sidebar-accent: 190 95% 45%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 14% 88%;
+    --sidebar-ring: 220 90% 50%;
   }
 }
 
@@ -51,9 +51,9 @@
 }
 
 .glass-card {
-  background: rgba(18, 19, 22, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .status-glow-green {

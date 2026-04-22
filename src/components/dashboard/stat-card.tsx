@@ -26,7 +26,7 @@ export function StatCard({ title, value, icon: Icon, trend, trendDirection, colo
       <div className="flex items-start justify-between">
         <div className="space-y-2">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">{title}</p>
-          <h3 className="text-3xl font-headline font-bold text-white tracking-tight">{value}</h3>
+          <h3 className="text-3xl font-headline font-bold text-foreground tracking-tight">{value}</h3>
           {trend && (
             <div className={cn(
               "text-xs flex items-center gap-1 font-semibold",
